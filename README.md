@@ -15,3 +15,6 @@ For tests expect, mocha, supertest libraries are used.
 ```
 {"text": "Something to do from Postman"}
 ```
+
+### Delete a Todo by Id
+*DELETE https://afternoon-meadow-65589.herokuapp.com/todos/:id* URL
