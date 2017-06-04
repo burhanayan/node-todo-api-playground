@@ -7,7 +7,6 @@ var authenticate = (req, res, next) => {
         if (!user) {
             return Promise.reject(); // res.status(401).send();
         }
-
         req.user = user;
         req.token = token;
         next();
